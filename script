@@ -1,0 +1,3 @@
+yacc -d grammar.y
+lex tokens.l
+g++ lex.yy.c y.tab.c -o calc -lfl
